@@ -11,11 +11,11 @@ namespace Tyuiu.PanasenkoRA.Sprint5.Task0.V0.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\Users\user\source\repos\Tyuiu.PanasenkoRA.Sprint5\Tyuiu.PanasenkoRA.Sprint5.Task0.V0.Test\bin\Debug\OutPutFileTask0.txt";
+            string path = @"C:\Users\user\source\repos\Tyuiu.PanasenkoRA.Sprint5\Tyuiu.PanasenkoRA.Sprint5.Task0.V0\bin\Debug\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
-            bool fileExists = fileInfo.Exists;
+            bool res = fileInfo.Exists;
             bool wait = true;
-            Assert.AreEqual(wait, fileExists);
+            Assert.AreEqual(wait, res);
         }
     }
 }
