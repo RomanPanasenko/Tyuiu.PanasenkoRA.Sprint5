@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using tyuiu.cources.programming.interfaces.Sprint5;
+
 using System.IO;
+
+using tyuiu.cources.programming.interfaces.Sprint5;
+
 
 namespace Tyuiu.PanasenkoRA.Sprint5.Task1.V0.Lib
 {
@@ -15,6 +18,7 @@ namespace Tyuiu.PanasenkoRA.Sprint5.Task1.V0.Lib
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask1.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
+            
 
             if (fileExists)
             {

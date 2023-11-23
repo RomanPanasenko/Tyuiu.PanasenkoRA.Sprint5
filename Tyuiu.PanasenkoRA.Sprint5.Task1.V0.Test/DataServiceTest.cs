@@ -1,7 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.PanasenkoRA.Sprint5.Task1.V0.Lib;
 using System.IO;
+using Tyuiu.PanasenkoRA.Sprint5.Task1.V0.Lib;
+
 
 namespace Tyuiu.PanasenkoRA.Sprint5.Task1.V0.Test
 {
